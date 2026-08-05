@@ -14,7 +14,7 @@ fn main() {
     });
 
     println!("Searching for {}", config.query);
-    println!("In file {}", config.file_name);
+    println!("In file {}\n", config.file_name);
 
     if let Err(e) = run(config) {
         println!("Application error: {}", e);
